@@ -59,7 +59,7 @@ layout: my-layout
 ``` 
 Note: this doesn't use a path to a layout, instead it uses an identifier.
 
-Or in the plugin configuration under [configuration.defaultLayout](#configuration-defaultLayout)
+Or in the plugin configuration under [configuration.defaultLayout](#configurationdefaultLayout)
 
 * If you specify a default-layout, it must contain a block called `body` for the main content. This is used when a user does not specify a target block. (This may become configurable).
 ```
