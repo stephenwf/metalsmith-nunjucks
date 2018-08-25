@@ -26,18 +26,18 @@ Here is the default configuration
 }
 ```
 
-##### configuration.pages
+#### configuration.pages
 **default:** `['**.twig']`
 
 This is a [Multimatch](https://www.npmjs.com/package/multimatch) pattern that specifies where to look for twig templates to render.
 
-##### configuration.layouts
+#### configuration.layouts
 **default:** `['layouts/*.twig'']`
 
 This is a [Multimatch](https://www.npmjs.com/package/multimatch) pattern that specifies where to look for twig templates used for layouts. [Layouts](#layouts) make it easy
 to wrap non-twig 
 
-##### configuration.defaultLayout
+#### configuration.defaultLayout
 This is the identifier of the layout you want to be used when no layout is specified. This can also be set to `none` if you want no layout to be used at all by default.
 
 ### Layouts
